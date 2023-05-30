@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Site Fotografia</title>
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+        
+        <!-- BX Slider -->
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+        
+<!--   Programação     -->
+    
+<!--
+//       alert("Olá, mundo!")
+//        document.write("Boa tarde!")
+//        document.write(2000*4000)
+//        document.write(2+2)
+//        var idade = 30
+//        document.write(idade*2)
+        
+//        Caixa com botão que pergunta a idade
+//        var idade = prompt("Digite sua idade")
+//        if (idade >= 18){
+//            document.write("Você pode tirar habilitação")}else{
+//                document.write("Você não pode tirar habilitação, você é de menor")
+//            }
+//        
+-->
+    <script>
+      $(document).ready(function(){
+        $(".slider").bxSlider();
+      });
+    </script>  
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="#" class="logofotomax">FotoMax</a>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#album">Álbuns</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#inicio" class="botaoinicio">Início</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            
+        <section id="inicio">
+            
+            <h1>Fotografias profissionais<br>
+            Conheça nosso trabalho</h1>
+            
+            <p>
+            <a href="#" class="botaosaibamais">Saiba mais</a>
+            </p>
+            <section id="slider">
+                <div class="slider">
+                    <div><img src="imagens/slide01.png"></div>
+                    <div><img src="imagens/slide02.png"></div>
+                    <div><img src="imagens/slide03.png"></div>
+                </div>
+            </section>
+        </section>
+            
+        <section id="sobre">
+            <h2>Sobre<br>
+            Nossa História</h2>
+                <div>
+                <p>
+                Lorem ipsum turpis est eget congue tristique interdum, convallis donec habitant massa litora pulvinar quis pellentesque, sagittis nisi mattis faucibus dictum etiam. fusce integer tempor sagittis himenaeos pellentesque amet, ornare quis accumsan sagittis tincidunt donec nullam, metus quis sed habitasse lectus. porta litora vel mollis a viverra libero felis pretium cubilia, ad dui venenatis lorem felis curabitur lobortis aliquet risus, sapien egestas bibendum eu nec aptent aliquam tempus. himenaeos mattis sem adipiscing eleifend lobortis ante sollicitudin conubia, nunc praesent lobortis condimentum diam purus integer, facilisis imperdiet augue tincidunt proin elit fringilla.
+                </p>
+                <p>
+                Lorem ipsum turpis est eget congue tristique interdum, convallis donec habitant massa litora pulvinar quis pellentesque, sagittis nisi mattis faucibus dictum etiam. fusce integer tempor sagittis himenaeos pellentesque amet, ornare quis accumsan sagittis tincidunt donec nullam, metus quis sed habitasse lectus. porta litora vel mollis a viverra libero felis pretium cubilia, ad dui venenatis lorem felis curabitur lobortis aliquet risus, sapien egestas bibendum eu nec aptent aliquam tempus. himenaeos mattis sem adipiscing eleifend lobortis ante sollicitudin conubia, nunc praesent lobortis condimentum diam purus integer, facilisis imperdiet augue tincidunt proin elit fringilla.
+                </p>
+                </div>
+        </section>
+        
+        <section id="galeria">
+            
+            <h2>Galeria</h2>
+            
+            <div class="fotos">
+                
+                <div class="fotomaior">
+                    <img src="imagens/galeria_maior.png">
+                </div>
+                
+                <div class="fotosmenores">
+                    <div>
+                        <img src="imagens/galeria_01.png">
+                    </div>
+                    <div>
+                        <img src="imagens/galeria_02.png">
+                    </div>
+                    <div>
+                        <img src="imagens/galeria_03.png">
+                    </div>
+                    <div>
+                        <img src="imagens/galeria_01.png">
+                    </div>
+                </div>
+            
+            </div>
+            
+        </section>
+            
+        <section id="album">
+            
+            <h2>Álbum</h2>
+            
+            <div class="album">
+            
+                <div class="fotoalbum">
+                    <img src="imagens/album%201.png">
+                </div>
+                
+                <div class="textoalbum">
+                    <p>
+                    Lorem ipsum turpis est eget congue tristique interdum, convallis donec habitant massa litora pulvinar quis pellentesque, sagittis nisi mattis faucibus dictum etiam. fusce integer tempor sagittis himenaeos pellentesque amet, ornare quis accumsan sagittis tincidunt donec nullam, metus quis sed habitasse lectus. porta litora vel mollis a viverra libero felis pretium cubilia, ad dui venenatis lorem felis curabitur lobortis aliquet risus, sapien egestas bibendum eu nec aptent aliquam tempus. himenaeos mattis sem adipiscing eleifend lobortis ante sollicitudin conubia, nunc praesent lobortis condimentum diam purus integer, facilisis imperdiet augue tincidunt proin elit fringilla.
+                    </p>
+                </div>
+                
+            </div>
+            
+        </section>
+            
+        </main>
+        
+        <footer>
+        
+            <section id="contato">
+                
+                <div class="textocontato">
+                    
+                    <h2>Contato</h2>
+                    
+                    <p>Lorem ipsum turpis est eget congue tristique interdum, convallis donec habitant massa litora pulvinar quis pellentesque, sagittis nisi mattis faucibus dictum etiam. fusce integer tempor sagittis himenaeos pellentesque amet, ornare quis accumsan sagittis tincidunt donec nullam, metus quis sed habitasse lectus. porta litora vel mollis a viverra libero felis pretium cubilia, ad dui venenatis lorem felis curabitur lobortis aliquet risus, sapien egestas bibendum eu nec aptent aliquam tempus. himenaeos mattis sem adipiscing eleifend lobortis ante sollicitudin conubia, nunc praesent lobortis condimentum diam purus integer, facilisis imperdiet augue tincidunt proin elit fringilla.</p>
+                    
+                </div>
+                
+                <div class="formulariocontato">
+                    <form>
+                        <p><label for="email">E-mail</label></p>
+                        <input type="text" id="email" placeholder="digite seu e-mail">
+                        <p><label for="mensagem">Mensagem</label></p>
+                        <textarea id="mensagem">
+                        
+                        </textarea>
+                        <br>
+                        <a href="#" class="botaoform">Enviar</a>
+                    </form>
+                </div>
+            
+            </section>
+            
+        </footer>
+    </body>
+</html>
